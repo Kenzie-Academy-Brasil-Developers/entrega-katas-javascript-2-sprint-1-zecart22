@@ -25,7 +25,7 @@ function power(oQueSeraElevado,pot){
  console.assert(power(3, 4) === 81, 'A função power não está funcionando como esperado');
 
 
-function fatorial(numero){
+function factorial(numero){
   let resultadoFatorial = 1;
   for(let i = numero; i > 0; i--){
     resultadoFatorial = multiply(resultadoFatorial, i)
